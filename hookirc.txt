@@ -1,0 +1,21 @@
+{
+  "name": "irc",
+  "active": true,
+  "events": [
+    "push",
+    "pull_request",
+    "commit_comment",
+    "pull_request_review_comment",
+    "issues",
+    "issue_comment",
+    "gollum"
+  ],
+  "config": {
+    "server": "chat.freenode.net",
+    "room": "#rollodeqc",
+    "message_without_join": true,
+    "notice": true,
+    "active": true,
+    "long_url": true
+  }
+}
